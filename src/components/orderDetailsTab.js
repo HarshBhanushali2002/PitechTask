@@ -19,6 +19,7 @@ import Badge from '@mui/material/Badge';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import StarIcon from '@mui/icons-material/Star';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
+import "../app/page.module.css";
 
 
 const theme = createTheme({

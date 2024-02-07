@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import FileOpenIcon from '@mui/icons-material/FileOpen';
 import ArticleIcon from '@mui/icons-material/Article';
 import PanToolAltIcon from '@mui/icons-material/PanToolAlt';
+import "../app/page.module.css";
 
 export default function OrderDetailActions() {
     return (
