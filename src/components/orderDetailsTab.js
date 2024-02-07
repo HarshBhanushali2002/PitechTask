@@ -156,21 +156,21 @@ export default function OrderDetailTabs() {
                                     </Grid>
 
                                 </Grid>
-                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#2a6cc1", textDecoration: "underline", marginTop: "15px" }}>
+                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#2a6cc1", marginTop: "15px" }}>
                                     Repaires (Riding Squards / Manpower)
                                 </Typography>
 
-                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#2a6cc1", textDecoration: "underline", marginTop: "15px" }}>
+                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#2a6cc1",  marginTop: "15px" }}>
                                     <StarIcon color='secondary'/> <StarIcon color='secondary'/> <StarIcon color='secondary'/> <StarIcon color='secondary'/>  <StarBorderIcon color='secondary'/>
                                 </Typography>
 
-                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#00704B", textDecoration: "underline", marginTop: "5px" }}>
+                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#00704B", marginTop: "5px" }}>
                                     <LocationOn sx={{mr: 1}} /> 1st Floor, Skypark, 8 Elliot Place
                                 </Typography>
-                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#00704B", textDecoration: "underline", marginTop: "5px" }}>
+                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#00704B", marginTop: "5px" }}>
                                     <Call  sx={{mr: 1}}/> +0 44 (0) 141 405 1299
                                 </Typography>
-                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#00704B", textDecoration: "underline", marginTop: "5px" }}>
+                                <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#00704B", marginTop: "5px" }}>
                                     <Phone  sx={{mr: 1}}/> +0 44 (0) 141 405 1299
                                 </Typography>
                                 <Typography variant="caption" sx={{ display: "flex", fontWeight: 700, color: "#00704B", textDecoration: "underline", marginTop: "5px" }}>
@@ -189,7 +189,7 @@ export default function OrderDetailTabs() {
                                         <TableHead>
                                             <TableRow>
                                                 <TableCell >Status</TableCell >
-                                                <TableCell align="right">Supplier Name</TableCell>
+                                                <TableCell >Supplier Name</TableCell>
                                                 <TableCell align="right">Goods</TableCell>
                                                 <TableCell align="right">Freight</TableCell>
                                                 <TableCell align="right">Total</TableCell>
@@ -204,7 +204,7 @@ export default function OrderDetailTabs() {
                                                     {/* <Chip label="HB" color="success" /> */}
                                                     <Avatar sx={{bgcolor: "green"}}>HB</Avatar>
                                                 </TableCell>
-                                                <TableCell align="right" ><Typography sx={{fontWeight:"600"}} variant="caption">Engineering Co. Ltd</Typography></TableCell>
+                                                <TableCell  ><Typography sx={{fontWeight:"600"}} variant="caption">Engineering Co. Ltd</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} variant="caption">3,456.90</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} variant="caption">0.00</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} variant="caption">3,456.90</Typography></TableCell>
@@ -216,7 +216,7 @@ export default function OrderDetailTabs() {
                                                     {/* <Chip label="HB" color="success" /> */}
                                                     <Avatar sx={{bgcolor: "green"}}>HB</Avatar>
                                                 </TableCell>
-                                                <TableCell align="right" ><Typography sx={{fontWeight:"600"}} variant="caption">Fintech Co. Ltd - SPARES</Typography></TableCell>
+                                                <TableCell  ><Typography sx={{fontWeight:"600"}} variant="caption">Fintech Co. Ltd - SPARES</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} color="error" variant="caption">4370.60</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} variant="caption">0.00</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} variant="caption">4370.60</Typography></TableCell>
