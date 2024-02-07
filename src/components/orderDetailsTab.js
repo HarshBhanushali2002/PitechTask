@@ -15,6 +15,7 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import Avatar from '@mui/material/Avatar';
 import Badge from '@mui/material/Badge';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import StarIcon from '@mui/icons-material/Star';
@@ -200,7 +201,8 @@ export default function OrderDetailTabs() {
 
                                             <TableRow >
                                                 <TableCell component="th" scope="row">
-                                                    <Chip label="HB" color="success" />
+                                                    {/* <Chip label="HB" color="success" /> */}
+                                                    <Avatar sx={{bgcolor: "green"}}>HB</Avatar>
                                                 </TableCell>
                                                 <TableCell align="right" ><Typography sx={{fontWeight:"600"}} variant="caption">Engineering Co. Ltd</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} variant="caption">3,456.90</Typography></TableCell>
@@ -211,7 +213,8 @@ export default function OrderDetailTabs() {
                                             </TableRow>
                                             <TableRow>
                                                 <TableCell component="th" scope="row">
-                                                    <Chip label="HB" color="success" />
+                                                    {/* <Chip label="HB" color="success" /> */}
+                                                    <Avatar sx={{bgcolor: "green"}}>HB</Avatar>
                                                 </TableCell>
                                                 <TableCell align="right" ><Typography sx={{fontWeight:"600"}} variant="caption">Fintech Co. Ltd - SPARES</Typography></TableCell>
                                                 <TableCell align="right"><Typography sx={{fontWeight:"600"}} color="error" variant="caption">4370.60</Typography></TableCell>

@@ -84,7 +84,7 @@ export default function SearchCard() {
                     <Grid item xs={6}>
                         <TextField
                             id="coy-id"
-                            label="Coy Id"
+                            label="Coy id"
                             placeholder="Enter Coy Id"
                             variant="standard"
                             InputLabelProps={{

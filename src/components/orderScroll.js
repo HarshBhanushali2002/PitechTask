@@ -56,7 +56,7 @@ export default function OrderList() {
                                     {/* <PhishingOutlined/> */}
 
                                     {/* <Chip label="HB" color="success"  /> */}
-                                    <Avatar>HB</Avatar>
+                                    <Avatar sx={{bgcolor: "orange"}}>HB</Avatar>
                                 </Grid>
 
                             </Grid>
@@ -96,7 +96,7 @@ export default function OrderList() {
                                             {/* <PhishingOutlined/> */}
                                             <AnchorIcon sx={{ mr: 2, mt: 0.5 }} />
                                             {/* <Chip label="HB" color="success"  /> */}
-                                            <Avatar>HB</Avatar>
+                                            <Avatar sx={{bgcolor: "blueviolet"}}>HB</Avatar>
                                         </Grid>
 
                                     </Grid>
@@ -139,7 +139,7 @@ export default function OrderList() {
                                             {/* <PhishingOutlined/> */}
                                             <PushPinIcon sx={{ mr: 2, mt: 0.5 }} /> <AnchorIcon sx={{ mr: 2, mt: 0.5 }} />
                                             {/* <Chip label="HB" color="success"  /> */}
-                                            <Avatar>HB</Avatar>
+                                            <Avatar sx={{bgcolor: "red"}}>HB</Avatar>
                                         </Grid>
 
                                     </Grid>
@@ -180,7 +180,7 @@ export default function OrderList() {
                                     {/* <PhishingOutlined/> */}
                                     <ErrorOutlineIcon sx={{ mr: 2, mt: 0.5 }}/>
                                     {/* <Chip label="HB" color="success"  /> */}
-                                    <Avatar>HB</Avatar>
+                                    <Avatar sx={{bgcolor: "green"}}>HB</Avatar>
                                 </Grid>
 
                             </Grid>
@@ -219,7 +219,7 @@ export default function OrderList() {
                                     {/* <PhishingOutlined/> */}
 
                                     {/* <Chip label="HB" color="success"  /> */}
-                                    <Avatar>HB</Avatar>
+                                    <Avatar sx={{bgcolor: "blue"}}>HB</Avatar>
                                 </Grid>
 
                             </Grid>

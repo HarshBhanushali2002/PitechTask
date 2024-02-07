@@ -27,7 +27,7 @@ export default function OrderDetailHeader() {
                     <Grid item xs={12} sm={12} md={6} >
                         <Typography variant="subtitle2" gutterBottom sx={{fontWeight:700, display: "flex"}}>
                             {/* <Chip label="HB" color="success" /> */}
-                            <Avatar  sx={{ width: 35, height: 35, mr: 1 }}>HB</Avatar>
+                            <Avatar  sx={{ width: 35, height: 35, mr: 1, bgcolor: "green" }}>HB</Avatar>
                              4907 - 12345 HOTEL/TECH WORK
                             
                         </Typography>
